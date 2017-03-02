@@ -1,0 +1,10 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["funbox-rules"],
+  "rules": {
+    "funbox-rules/no-only": 2
+  }
+}
