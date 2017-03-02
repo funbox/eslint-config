@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-funbox",
+  "version": "0.1.0",
+  "description": "FunBox's ESLint config, following our styleguide",
+  "dependencies": {
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-import-resolver-webpack": "0.7.0",
+    "eslint-plugin-funbox-rules": "1.0.0",
+    "eslint-plugin-import": "1.9.2",
+    "eslint-plugin-jsx-a11y": "1.2.3",
+    "eslint-plugin-react": "5.0.1"
+  },
+  "keywords": [
+    "eslint",
+    "funbox",
+    "config"
+  ],
+  "license": "MIT"
+}
