@@ -15,6 +15,7 @@
     "describe": true,
     "expect": true,
     "beforeEach": true,
+    "afterEach": true,
     "it",
     "ngModule": true,
     "inject": true,
