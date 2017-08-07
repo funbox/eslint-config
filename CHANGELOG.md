@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (07.08.2017)
+
+* Update `eslint-import-resolver-webpack` to support webpack >= 2.
+
 ## 1.1.0 (04.08.2017)
 
 * Add `afterEach` to `globals`.
