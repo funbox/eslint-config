@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0 (08.02.2018)
+
+* Remove webpack related settings.
+
 ## 1.2.0 (07.08.2017)
 
 * Update `eslint-import-resolver-webpack` to support webpack >= 2.
