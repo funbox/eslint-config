@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 (13.02.2018)
+
+* Update deps.
+
 ## 2.0.0 (08.02.2018)
 
 * Remove webpack related settings.
