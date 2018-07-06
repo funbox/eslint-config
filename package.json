@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-funbox",
+  "name": "@funboxteam/eslint-config",
   "version": "2.1.0",
   "description": "FunBox's ESLint config, following our styleguide",
   "dependencies": {
