@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.0 (06.07.2018)
+
+* Add .editorconfig, update .gitignore.
+* Move the package to @funboxteam scope.
+
 ## 2.1.0 (13.02.2018)
 
 * Update deps.

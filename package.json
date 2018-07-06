@@ -1,6 +1,6 @@
 {
   "name": "@funboxteam/eslint-config",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "FunBox's ESLint config, following our styleguide",
   "dependencies": {
     "eslint-config-airbnb": "14.1.0",
