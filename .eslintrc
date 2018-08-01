@@ -21,6 +21,9 @@
     "browser": true,
     "casper": true
   },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
   "rules": {
     "no-use-before-define": [
       "error",
