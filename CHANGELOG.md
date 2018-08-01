@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 (01.08.2018)
+
+* Move to `ecmaVersion: 8` to support `async`/`await`.
+
 ## 3.0.0 (06.07.2018)
 
 * Add .editorconfig, update .gitignore.
