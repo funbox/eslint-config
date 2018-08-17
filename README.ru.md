@@ -8,11 +8,11 @@
 и передать пути для поиска файлов в качестве аргументов:
 
 ```sh
-eslint -c node_modules/eslint-config-funbox/.eslintrc src/app src/sandbox
+eslint -c node_modules/eslint-config-funbox/.eslintrc.js src/app src/sandbox
 ```
 
 Для линтинга тестов следует использовать отдельный конфиг:
 
 ```sh 
-eslint -c node_modules/eslint-config-funbox/.eslintrc.test.only src/tests
+eslint -c node_modules/eslint-config-funbox/.eslintrc.test.only.js src/tests
 ```

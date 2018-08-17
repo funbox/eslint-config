@@ -8,11 +8,11 @@ Include into a project config using flag [-c](http://eslint.org/docs/user-guide/
 and pass paths for files as arguments:
 
 ```sh
-eslint -c node_modules/eslint-config-funbox/.eslintrc src/app src/sandbox
+eslint -c node_modules/eslint-config-funbox/.eslintrc.js src/app src/sandbox
 ```
 
 For test linting use the separated config:
 
 ```sh 
-eslint -c node_modules/eslint-config-funbox/.eslintrc.test.only src/tests
+eslint -c node_modules/eslint-config-funbox/.eslintrc.test.only.js src/tests
 ```
