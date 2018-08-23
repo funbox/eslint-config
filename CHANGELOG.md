@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.0 (23.08.2018)
+
+* Update rules for React projects.
+
 ## 3.1.0 (01.08.2018)
 
 * Move to `ecmaVersion: 8` to support `async`/`await`.
