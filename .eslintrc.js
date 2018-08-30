@@ -73,6 +73,10 @@ module.exports = {
     // Not always true. E.g. we can have files with constants or actions creators with only one entity.
     'import/prefer-default-export': 'off',
 
+    // Does not allow reexport elements of BEM blocks with *.
+    // But such reexport makes use of external blocks libraries easier.
+    'import/named': 'off',
+
     // Not always convenient.
     'react/destructuring-assignment': 'off',
 
