@@ -11,8 +11,8 @@ module.exports = {
     it: true,
     xit: true,
   },
-  plugins: ['funbox-rules'],
+  plugins: ['@funboxteam/funbox-rules'],
   rules: {
-    'funbox-rules/no-only': 2,
+    '@funboxteam/funbox-rules/no-only': 2,
   },
 }
