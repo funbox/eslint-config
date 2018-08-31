@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.0 (31.08.2018)
+
+* Update `eslint-plugin-funbox-rules` to 2.0.1.
+
 ## 4.0.0 (23.08.2018)
 
 * Update rules for React projects.
