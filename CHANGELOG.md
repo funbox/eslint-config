@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.0 (31.08.2018)
+
+* Turn off `import/named`.
+
 ## 4.1.0 (31.08.2018)
 
 * Update `eslint-plugin-funbox-rules` to 2.0.1.
