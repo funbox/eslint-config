@@ -24,6 +24,9 @@ module.exports = {
     // Gets in the way of BEM.
     camelcase: 'off',
 
+    // Forces to create useless static methods or even separated functions.
+    'class-methods-use-this': 'off',
+
     // Commonly used in projects, e.g. in JSX files.
     'global-require': 'off',
 
