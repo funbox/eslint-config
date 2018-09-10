@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.0 (10.09.2018)
+
+* Turn off `class-methods-use-this`.
+
 ## 4.2.0 (31.08.2018)
 
 * Turn off `import/named`.
