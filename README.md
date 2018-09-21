@@ -17,26 +17,38 @@ For test linting use the separated config:
 eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.tests.js src/tests
 ```
 
-Also you can extend this config by the project one. E.g. for the base config use this:
+Also you can create your own `.eslintrc.js` and extend this config there: 
+
+```js
+module.exports = {
+  extends: '@funboxteam',
+  env: {
+    browser: true
+  },
+  globals: {
+    fetcher: true,
+    System: true,
+    moment: true
+  },
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: 'config/webpack.config.dev.js',
+      }
+    }
+  },
+}
+```
+
+Same for tests' config:
 
 ```
-{
-  "extends": "@funboxteam/eslint-config"
+module.exports = {
+  extends: '@funboxteam/eslint-config/tests',
+  globals: {
+    __utils__: true,
+  }
 }
 ``` 
 
-Or just this:
-
-```
-{
-  "extends": "@funboxteam"
-}
-``` 
-
-Use this for tests config:
-
-```
-{
-  "extends": "@funboxteam/eslint-config/tests"
-}
-``` 
+Read more about `.eslintrc.js` in [ESLint docs](https://eslint.org/docs/user-guide/configuring).

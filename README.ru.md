@@ -17,26 +17,40 @@ eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.js src/app src/sandbo
 eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.test.only.js src/tests
 ```
 
-Также можно подключить оба конфига в своём локальном. Например, вот так для основного конфига:
+Также можно создать свой файл `.eslintrc.js`, и доопределить в нём этот конфиг. 
+Пример такого доопределения: 
+
+```js
+module.exports = {
+  extends: '@funboxteam',
+  env: {
+    browser: true
+  },
+  globals: {
+    fetcher: true,
+    System: true,
+    moment: true
+  },
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: 'config/webpack.config.dev.js',
+      }
+    }
+  },
+}
+```  
+
+Пример доопределения конфига для тестов:
 
 ```
-{
-  "extends": "@funboxteam/eslint-config"
+module.exports = {
+  extends: '@funboxteam/eslint-config/tests',
+  globals: {
+    __utils__: true,
+  }
 }
 ``` 
 
-Или даже так:
-
-```
-{
-  "extends": "@funboxteam"
-}
-``` 
-
-И вот так для конфига для тестов:
-
-```
-{
-  "extends": "@funboxteam/eslint-config/tests"
-}
-``` 
+Более подробно о том, как устроен файл `.eslintrc.js`, 
+и что в нём можно настраивать, можно прочитать [в документации ESLint](https://eslint.org/docs/user-guide/configuring).
