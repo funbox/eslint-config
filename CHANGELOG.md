@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.0 (27.09.2018)
+
+* Improve examples in README.
+
 ## 4.3.0 (10.09.2018)
 
 * Turn off `class-methods-use-this`.
