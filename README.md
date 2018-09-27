@@ -1,4 +1,4 @@
-# eslint-config-funbox
+# @funboxteam/eslint-config
 
 ESLint rules that follow out styleguide for JS files.
 

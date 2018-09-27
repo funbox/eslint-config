@@ -1,4 +1,4 @@
-# eslint-config-funbox
+# @funboxteam/eslint-config
 
 Пакет содержит правила для линтера ESLint, соответствующие принятому в компании стайлгайду для JS-файлов.
 
