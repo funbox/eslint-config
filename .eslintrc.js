@@ -90,6 +90,9 @@ module.exports = {
     // Not always convenient.
     'react/jsx-closing-tag-location': 'off',
 
+    // To make it work with Fragment as global var.
+    'react/jsx-no-undef': [2, { allowGlobals: true }],
+
     // Works incorrectly with &nbsp; and the similar things.
     'react/jsx-one-expression-per-line': 'off',
 
