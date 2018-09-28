@@ -1,6 +1,6 @@
 {
   "name": "@funboxteam/eslint-config",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "description": "FunBox's ESLint config, following our styleguide",
   "dependencies": {
     "@funboxteam/eslint-plugin-funbox-rules": "2.0.1",
