@@ -107,9 +107,6 @@ module.exports = {
       beforeClosing: 'never',
     }],
 
-    // It's a common practice due to typografs.
-    'react/no-danger': 'off',
-
     // When it's important it's easier to use babel-plugin that transforms classes into functions.
     'react/prefer-stateless-function': 'off',
 
