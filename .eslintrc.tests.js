@@ -11,8 +11,8 @@ module.exports = {
     it: true,
     xit: true,
   },
-  plugins: ['@funboxteam/funbox-rules'],
+  plugins: ['@funboxteam/eslint-plugin-no-only-tests'],
   rules: {
-    '@funboxteam/funbox-rules/no-only': 2,
+    'no-only-tests/no-only': 2,
   },
 }
