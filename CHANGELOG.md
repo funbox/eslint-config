@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.6.0 (05.10.2018)
+
+* Turn off `no-param-reassign`.
+
 ## 4.5.0 (28.09.2018)
 
 * Add `react/jsx-no-undef` rule.
