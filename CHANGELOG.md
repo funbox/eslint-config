@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.7.0 (05.10.2018)
+
+* Turn on `react/no-danger`.
+
 ## 4.6.0 (05.10.2018)
 
 * Turn off `no-param-reassign`.
