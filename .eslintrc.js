@@ -158,5 +158,8 @@ module.exports = {
     // Deprecated and most likely will stop working in the future.
     // So turn it off today.
     'jsx-a11y/label-has-for': 'off',
+
+    // Does't prevent mutation, but gets in the way of optimizations and performance improvements in the complex projects (FD-1861)
+    'no-param-reassign': 'off',
   },
 }
