@@ -13,6 +13,6 @@ module.exports = {
   },
   plugins: ['@funboxteam/eslint-plugin-no-only-tests'],
   rules: {
-    'no-only-tests/no-only': 2,
+    '@funboxteam/no-only-tests/no-only': 2,
   },
 }
