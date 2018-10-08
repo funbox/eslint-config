@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.8.1 (08.10.2018)
+
+* Fix syntax of `no-only-tests` rule turning on.
+
 ## 4.8.0 (05.10.2018)
 
 * Replace `eslint-rules` plugin with `eslint-plugin-no-only-tests`.
