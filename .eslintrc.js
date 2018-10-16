@@ -158,5 +158,8 @@ module.exports = {
 
     // Does't prevent mutation, but gets in the way of optimizations and performance improvements in the complex projects (FD-1861)
     'no-param-reassign': 'off',
+
+    // Sometimes it's convenient. Let the developer decide.
+    'react/no-array-index-key': 'off',
   },
 }
