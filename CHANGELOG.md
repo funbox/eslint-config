@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.9.0 (16.10.2018)
+
+* Turn off react/no-array-index-key.
+
 ## 4.8.1 (08.10.2018)
 
 * Fix syntax of `no-only-tests` rule turning on.
