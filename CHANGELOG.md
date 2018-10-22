@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.10.0 (22.10.2018)
+
+* Add typograf's `T` to the list of global vars.
+
 ## 4.9.0 (16.10.2018)
 
 * Turn off react/no-array-index-key.
