@@ -3,6 +3,7 @@ module.exports = {
   globals: {
     // React
     b: true,
+    T: true,
     Component: true,
     Fragment: true,
     PropTypes: true,
