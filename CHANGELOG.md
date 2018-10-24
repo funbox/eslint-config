@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.11.0 (24.10.2018)
+
+* Turn off controversial a11y rules that are not required in every project.
+
 ## 4.10.0 (22.10.2018)
 
 * Add typograf's `T` to the list of global vars.
