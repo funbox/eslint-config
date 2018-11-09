@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.12.0 (09.11.2018)
+
+* Add `after` to the list of global vars for tests.
+
 ## 4.11.0 (24.10.2018)
 
 * Turn off controversial a11y rules that are not required in every project.
