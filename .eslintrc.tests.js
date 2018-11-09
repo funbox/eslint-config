@@ -1,6 +1,7 @@
 module.exports = {
   extends: './index.js',
   globals: {
+    after: true,
     afterEach: true,
     before: true,
     beforeEach: true,
