@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.12.1 (01.03.2019)
+
+* Update @funboxteam/eslint-plugin-no-only-tests to 3.1.1.  
+
 ## 4.12.0 (09.11.2018)
 
 * Add `after` to the list of global vars for tests.
@@ -14,7 +18,7 @@
 
 ## 4.9.0 (16.10.2018)
 
-* Turn off react/no-array-index-key.
+* Turn off `react/no-array-index-key`.
 
 ## 4.8.1 (08.10.2018)
 
