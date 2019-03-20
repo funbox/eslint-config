@@ -40,6 +40,9 @@ module.exports = {
     // Makes logic too explicit, which is usually not so handy.
     'no-mixed-operators': 'off',
 
+    // Does't prevent mutation, but gets in the way of optimizations and performance improvements in the complex projects (FD-1861)
+    'no-param-reassign': 'off',
+
     // Makes sense when `;` isn't used in the end of lines. But we use `;`.
     'no-plusplus': 'off',
 
@@ -65,6 +68,10 @@ module.exports = {
     // E.g. chains like `event.target.width` are fine.
     'prefer-destructuring': 'off',
 
+    // Does not allow reexport elements of BEM blocks with *.
+    // But such reexport makes use of external blocks libraries easier.
+    'import/named': 'off',
+
     // Only devDeps and general deps are allowed.
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true,
@@ -76,10 +83,6 @@ module.exports = {
 
     // Not always true. E.g. we can have files with constants or actions creators with only one entity.
     'import/prefer-default-export': 'off',
-
-    // Does not allow reexport elements of BEM blocks with *.
-    // But such reexport makes use of external blocks libraries easier.
-    'import/named': 'off',
 
     // Not always convenient.
     'react/destructuring-assignment': 'off',
@@ -107,6 +110,9 @@ module.exports = {
       afterOpening: 'never',
       beforeClosing: 'never',
     }],
+
+    // Sometimes it's convenient. Let the developer decide.
+    'react/no-array-index-key': 'off',
 
     // When it's important it's easier to use babel-plugin that transforms classes into functions.
     'react/prefer-stateless-function': 'off',
@@ -156,12 +162,6 @@ module.exports = {
     // Deprecated and most likely will stop working in the future.
     // So turn it off today.
     'jsx-a11y/label-has-for': 'off',
-
-    // Does't prevent mutation, but gets in the way of optimizations and performance improvements in the complex projects (FD-1861)
-    'no-param-reassign': 'off',
-
-    // Sometimes it's convenient. Let the developer decide.
-    'react/no-array-index-key': 'off',
 
     // A11y rules should be turned on when they're necessary in the project
     'jsx-a11y/accessible-emoji': 'off',
