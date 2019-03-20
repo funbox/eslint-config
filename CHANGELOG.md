@@ -1,8 +1,12 @@
 # Changelog
 
+## 4.13.0 (20.03.2019)
+
+* Turn off `react/no-did-update-set-state`.
+
 ## 4.12.1 (01.03.2019)
 
-* Update @funboxteam/eslint-plugin-no-only-tests to 3.1.1.  
+* Update `@funboxteam/eslint-plugin-no-only-tests` to 3.1.1.  
 
 ## 4.12.0 (09.11.2018)
 
