@@ -114,7 +114,12 @@ module.exports = {
     // Sometimes it's convenient. Let the developer decide.
     'react/no-array-index-key': 'off',
 
-    // When it's important it's easier to use babel-plugin that transforms classes into functions.
+    // Prevents loops in UI, but doesn't allow to change state when it's needed.
+    // It's nearly impossible to ignore the error it prevents.
+    // So it's easier to turn it off globally rather then in every project (FD-2353).
+    'react/no-did-update-set-state': 'off',
+
+  // When it's important it's easier to use babel-plugin that transforms classes into functions.
     'react/prefer-stateless-function': 'off',
 
     // defaultProps is't used everywhere.
