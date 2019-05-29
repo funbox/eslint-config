@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.14.0 (29.05.2019)
+
+* Update deps.
+
 ## 4.13.0 (20.03.2019)
 
 * Turn off `react/no-did-update-set-state`.
