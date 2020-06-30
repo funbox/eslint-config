@@ -54,3 +54,5 @@ module.exports = {
 
 Более подробно о том, как устроен файл `.eslintrc.js`, 
 и что в нём можно настраивать, можно прочитать [в документации ESLint](https://eslint.org/docs/user-guide/configuring).
+
+[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
