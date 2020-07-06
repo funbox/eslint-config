@@ -2,6 +2,13 @@
   "name": "@funboxteam/eslint-config",
   "version": "4.14.0",
   "description": "FunBox's ESLint config, following our styleguide",
+  "keywords": [
+    "eslint",
+    "funbox",
+    "config"
+  ],
+  "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
+  "license": "MIT",
   "dependencies": {
     "@funboxteam/eslint-plugin-no-only-tests": "3.1.2",
     "eslint-config-airbnb": "17.1.0",
@@ -12,11 +19,5 @@
   },
   "peerDependencies": {
     "eslint": "^5.16.0"
-  },
-  "keywords": [
-    "eslint",
-    "funbox",
-    "config"
-  ],
-  "license": "MIT"
+  }
 }
