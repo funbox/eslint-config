@@ -4,6 +4,8 @@
 
 ESLint rules that follow out styleguide for JS files.
 
+[По-русски](./README.ru.md)
+
 ## Usage
 
 Include into a project config using flag [-c](http://eslint.org/docs/user-guide/command-line-interface#-c---config),
