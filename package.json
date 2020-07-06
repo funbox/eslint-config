@@ -14,7 +14,7 @@
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",
   "dependencies": {
-    "@funboxteam/eslint-plugin-no-only-tests": "3.1.2",
+    "@funboxteam/eslint-plugin-no-only-tests": "4.0.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-import-resolver-webpack": "0.11.1",
     "eslint-plugin-import": "2.17.3",
