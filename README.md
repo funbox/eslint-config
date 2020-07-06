@@ -1,5 +1,7 @@
 # @funboxteam/eslint-config
 
+[![npm](https://img.shields.io/npm/v/@funboxteam/eslint-config.svg)](https://www.npmjs.com/package/@funboxteam/eslint-config)
+
 ESLint rules that follow out styleguide for JS files.
 
 ## Usage
