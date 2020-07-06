@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.0.0 (07.07.2020)
+
+* Add LICENSE file.
+* Prepare package to publish on GitHub.
+
 ## 4.14.0 (29.05.2019)
 
 * Update deps.
