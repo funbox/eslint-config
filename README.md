@@ -2,7 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/@funboxteam/eslint-config.svg)](https://www.npmjs.com/package/@funboxteam/eslint-config)
 
-ESLint rules that follow out styleguide for JS files.
+ESLint rules that follow our style guide.
+
+Based on the well-known [Airbnb JS Style Guide](https://github.com/airbnb/javascript).
 
 [По-русски](./README.ru.md)
 
@@ -15,7 +17,7 @@ and pass paths for files as arguments:
 eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.js src/app src/sandbox
 ```
 
-For test linting use the separated config:
+To lint tests files use the separated config:
 
 ```sh 
 eslint -c node_modules/@funboxteam/eslint-config/.eslintrc.tests.js src/tests

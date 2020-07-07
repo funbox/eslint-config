@@ -2,7 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/@funboxteam/eslint-config.svg)](https://www.npmjs.com/package/@funboxteam/eslint-config)
 
-Пакет содержит правила для линтера ESLint, соответствующие принятому в компании стайлгайду для JS-файлов.
+Пакет с правилами для линтера ESLint, соответствующие принятому в компании стайлгайду.
+
+Основан на [конфиге от Airbnb](https://github.com/airbnb/javascript).
 
 ## Использование
 

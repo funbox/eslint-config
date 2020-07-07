@@ -1,7 +1,7 @@
 {
   "name": "@funboxteam/eslint-config",
   "version": "4.14.0",
-  "description": "FunBox's ESLint config, following our styleguide",
+  "description": "ESLint rules that follow our style guide",
   "keywords": [
     "eslint",
     "funbox",

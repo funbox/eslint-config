@@ -119,7 +119,7 @@ module.exports = {
     // So it's easier to turn it off globally rather then in every project (FD-2353).
     'react/no-did-update-set-state': 'off',
 
-  // When it's important it's easier to use babel-plugin that transforms classes into functions.
+    // When it's important it's easier to use babel-plugin that transforms classes into functions.
     'react/prefer-stateless-function': 'off',
 
     // defaultProps is't used everywhere.
@@ -189,4 +189,4 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/tabindex-no-positive': 'off',
   },
-}
+};
