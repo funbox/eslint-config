@@ -8,6 +8,12 @@ Based on the well-known [Airbnb JS Style Guide](https://github.com/airbnb/javasc
 
 [По-русски](./README.ru.md)
 
+## Installation
+
+```bash
+npm install --save-dev @funboxteam/eslint-config
+```
+
 ## Usage
 
 Include into a project config using flag [-c](http://eslint.org/docs/user-guide/command-line-interface#-c---config),

@@ -6,6 +6,12 @@
 
 Основан на [конфиге от Airbnb](https://github.com/airbnb/javascript).
 
+## Установка
+
+```bash
+npm install --save-dev @funboxteam/eslint-config
+```
+
 ## Использование
 
 Подключить в конфиг рабочего проекта, используя ключ [-c](http://eslint.org/docs/user-guide/command-line-interface#-c---config), 
