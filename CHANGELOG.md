@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0 (31.08.2020)
+
+* Update `eslint-plugin-react` to 7.20.6.
+
 ## 5.0.0 (07.07.2020)
 
 * Add LICENSE file.
