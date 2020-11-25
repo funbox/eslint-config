@@ -34,6 +34,9 @@ module.exports = {
     // Things happen.
     'max-len': 'off',
 
+    // Yeah, Promise.all is great, but in CLI apps we do want to use await in loops, and it's fine.
+    'no-await-in-loop': 'off',
+
     // `console.log` is removed in production by minifier, but in dev env we usually need it.
     'no-console': 'off',
 
