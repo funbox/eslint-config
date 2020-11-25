@@ -89,6 +89,10 @@ module.exports = {
     // E.g. chains like `event.target.width` are fine.
     'prefer-destructuring': 'off',
 
+    // `parseInt` autodetected octal literals in the older versions of ECMAScript, which we don't use nowadays.
+    // So using `parseInt` w/o radix is totally fine.
+    'radix': 'off',
+
     // Does not allow reexport elements of BEM blocks with *.
     // But such reexport makes use of external blocks libraries easier.
     'import/named': 'off',
