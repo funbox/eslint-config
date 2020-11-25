@@ -34,6 +34,9 @@ module.exports = {
     // Things happen.
     'max-len': 'off',
 
+    // Yeah, Promise.all is great, but in CLI apps we do want to use await in loops, and it's fine.
+    'no-await-in-loop': 'off',
+
     // `console.log` is removed in production by minifier, but in dev env we usually need it.
     'no-console': 'off',
 
@@ -49,6 +52,24 @@ module.exports = {
     // In Airbnb config 'always' is turned on, but it doesn't allow things like this: ref={r => (this.root = r)}.
     // So leave the rule, but add an exception.
     'no-return-assign': ['error', 'except-parens'],
+
+    // Same as Airbnb used, but without restricting `ForOfStatement`.
+    // It's disabled there because it's “heavyweight” due to requiring regenerator-runtime. But our projects already use regenerator-runtime, so why not.
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector: 'ForInStatement',
+        message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+      },
+      {
+        selector: 'LabeledStatement',
+        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+      },
+      {
+        selector: 'WithStatement',
+        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
+    ],
 
     // Allow to use funcs and classes before their definition, 'cause it may be handy.
     // Such variables usage isn't allowed by default.
@@ -67,6 +88,10 @@ module.exports = {
     // Destruction is not always the right way to write code.
     // E.g. chains like `event.target.width` are fine.
     'prefer-destructuring': 'off',
+
+    // `parseInt` autodetected octal literals in the older versions of ECMAScript, which we don't use nowadays.
+    // So using `parseInt` w/o radix is totally fine.
+    'radix': 'off',
 
     // Does not allow reexport elements of BEM blocks with *.
     // But such reexport makes use of external blocks libraries easier.

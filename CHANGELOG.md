@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.2.0 (25.11.2020)
+
+* Disabled `no-await-in-loop`.
+* Disabled `radix`.
+* Allowed to use `for..of` loops.
+
 ## 5.1.0 (31.08.2020)
 
 * Update `eslint-plugin-react` to 7.20.6.
