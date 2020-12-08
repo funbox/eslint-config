@@ -23,7 +23,7 @@
     "@funboxteam/eslint-plugin-no-only-tests": "4.0.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-import-resolver-webpack": "0.11.1",
-    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.20.6"
   },
