@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.3.0 (09.12.2020)
+
+* Updated `eslint-plugin-import` to support `pathGroups` option in
+  [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)
+  rule.
+
 ## 5.2.0 (25.11.2020)
 
 * Disabled `no-await-in-loop`.
