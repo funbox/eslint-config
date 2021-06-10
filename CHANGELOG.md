@@ -1,5 +1,16 @@
 # Changelog
 
+## 5.3.1 (10.06.2021)
+
+Fixed several security vulnerabilities:
+
+- [Use of a Broken or Risky Cryptographic Algorithm](https://github.com/advisories/GHSA-r9p9-mrjm-926w) in [elliptic](https://github.com/indutny/elliptic). Updated from 6.5.3 to 6.5.4.
+
+- [Regular Expression Denial of Service](https://github.com/advisories/GHSA-43f8-2h32-f4cj) in [hosted-git-info](https://github.com/npm/hosted-git-info). Updated from 2.8.8 to 2.8.9.
+
+- [Prototype Pollution](https://github.com/advisories/GHSA-p6mc-m468-83gw) and [Command Injection](https://github.com/advisories/GHSA-35jh-r3h4-6jhm) in [lodash](https://github.com/lodash/lodash). Updated from 4.17.15 to 4.17.21.
+
+
 ## 5.3.0 (09.12.2020)
 
 * Updated `eslint-plugin-import` to support `pathGroups` option in
