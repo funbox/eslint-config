@@ -19,7 +19,7 @@ module.exports = {
     BASE_PATH: true,
   },
   rules: {
-    // Turn off, because it's based on teams POVs.
+    // Turned off, because it's based on teams POVs.
     'arrow-parens': 'off',
 
     // Gets in the way of BEM.
@@ -43,10 +43,10 @@ module.exports = {
     // Makes logic too explicit, which is usually not so handy.
     'no-mixed-operators': 'off',
 
-    // Does't prevent mutation, but gets in the way of optimizations and performance improvements in the complex projects (FD-1861)
+    // Doesn't prevent mutation, but gets in the way of optimizations and performance improvements in the complex projects (FD-1861)
     'no-param-reassign': 'off',
 
-    // Makes sense when `;` isn't used in the end of lines. But we use `;`.
+    // Makes sense when `;` isn't used at the end of lines. But we use `;`.
     'no-plusplus': 'off',
 
     // In Airbnb config 'always' is turned on, but it doesn't allow things like this: ref={r => (this.root = r)}.
@@ -71,7 +71,7 @@ module.exports = {
       },
     ],
 
-    // Allow to use funcs and classes before their definition, 'cause it may be handy.
+    // Allows to use funcs and classes before their definition, 'cause it may be handy.
     // Such variables usage isn't allowed by default.
     'no-use-before-define': ['error', {
       functions: false,
@@ -85,7 +85,7 @@ module.exports = {
       consistent: true,
     }],
 
-    // Destruction is not always the right way to write code.
+    // Destructuring is not always the right way to write code.
     // E.g. chains like `event.target.width` are fine.
     'prefer-destructuring': 'off',
 
