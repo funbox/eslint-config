@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.3.2 (27.09.2021)
+
+Fixed typos in the comments inside the config file.
+
+Also bumped some deps to fix security vulnerabilities.
+
+
 ## 5.3.1 (10.06.2021)
 
 Fixed several security vulnerabilities:
