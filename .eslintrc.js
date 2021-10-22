@@ -128,6 +128,9 @@ module.exports = {
     // Gets in the way of BEM.
     'react/jsx-pascal-case': 'off',
 
+    // Not always convenient.
+    'react/jsx-props-no-spreading': 'off',
+
     // Remove spaces even in front of `/>`, because it's prettier.
     'react/jsx-tag-spacing': ['error', {
       closingSlash: 'never',
