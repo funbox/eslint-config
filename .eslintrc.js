@@ -192,6 +192,9 @@ module.exports = {
       },
     }],
 
+    // Let the developer decide.
+    'react/state-in-constructor': 'off',
+
     // Deprecated and most likely will stop working in the future.
     // So turn it off today.
     'jsx-a11y/label-has-for': 'off',
