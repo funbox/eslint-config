@@ -16,4 +16,4 @@ module.exports = {
   rules: {
     '@funboxteam/no-only-tests/no-only': 2,
   },
-}
+};
