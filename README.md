@@ -38,9 +38,9 @@ module.exports = {
     browser: true
   },
   globals: {
-    fetcher: true,
-    System: true,
-    moment: true
+    fetcher: 'readonly',
+    System: 'readonly',
+    moment: 'readonly'
   },
   settings: {
     'import/resolver': {
@@ -58,7 +58,7 @@ Same for tests' config:
 module.exports = {
   extends: '@funboxteam/eslint-config/tests',
   globals: {
-    __utils__: true,
+    __utils__: 'readonly',
   }
 }
 ``` 

@@ -8,21 +8,21 @@ module.exports = {
   },
   globals: {
     // React
-    b: true,
-    T: true,
-    Component: true,
-    Fragment: true,
-    PropTypes: true,
-    PureComponent: true,
-    React: true,
-    ReactDOM: true,
+    b: 'readonly',
+    T: 'readonly',
+    Component: 'readonly',
+    Fragment: 'readonly',
+    PropTypes: 'readonly',
+    PureComponent: 'readonly',
+    React: 'readonly',
+    ReactDOM: 'readonly',
 
     // Env variables
-    APPLICATION_VERSION: true,
-    BUILD_TIMESTAMP: true,
-    APPLICATION_ENVIRONMENT: true,
-    GIT_COMMIT: true,
-    BASE_PATH: true,
+    APPLICATION_VERSION: 'readonly',
+    BUILD_TIMESTAMP: 'readonly',
+    APPLICATION_ENVIRONMENT: 'readonly',
+    GIT_COMMIT: 'readonly',
+    BASE_PATH: 'readonly',
   },
   rules: {
     // Turned off, because it's based on teams POVs.
