@@ -219,5 +219,28 @@ module.exports = {
     'jsx-a11y/no-onchange': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/tabindex-no-positive': 'off',
+
+    // The following rules are currently disabled in the Airbnb config v18.2.1, but will be probably enabled in the future. Now we turn them on.
+    'default-case-last': 'error',
+    'default-param-last': 'error',
+    'function-call-argument-newline': ['error', 'consistent'],
+    'grouped-accessor-pairs': ['error', 'anyOrder'],
+    'no-constructor-return': 'error',
+    'no-dupe-else-if': 'error',
+    'no-import-assign': 'error',
+    'no-loss-of-precision': 'error',
+    'no-promise-executor-return': 'error',
+    'no-setter-return': 'error',
+    'no-useless-backreference': 'error',
+    'no-unreachable-loop': 'error',
+    'prefer-exponentiation-operator': 'error',
+    'prefer-regex-literals': 'error',
+    'react/jsx-no-script-url': ['error', [
+      {
+        name: 'Link',
+        props: ['href', 'to'],
+      },
+    ]],
+    'react/jsx-no-useless-fragment': 'error',
   },
 };
