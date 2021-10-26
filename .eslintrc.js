@@ -1,22 +1,28 @@
 module.exports = {
   extends: 'airbnb',
+  env: {
+    es2020: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
   globals: {
     // React
-    b: true,
-    T: true,
-    Component: true,
-    Fragment: true,
-    PropTypes: true,
-    PureComponent: true,
-    React: true,
-    ReactDOM: true,
+    b: 'readonly',
+    T: 'readonly',
+    Component: 'readonly',
+    Fragment: 'readonly',
+    PropTypes: 'readonly',
+    PureComponent: 'readonly',
+    React: 'readonly',
+    ReactDOM: 'readonly',
 
     // Env variables
-    APPLICATION_VERSION: true,
-    BUILD_TIMESTAMP: true,
-    APPLICATION_ENVIRONMENT: true,
-    GIT_COMMIT: true,
-    BASE_PATH: true,
+    APPLICATION_VERSION: 'readonly',
+    BUILD_TIMESTAMP: 'readonly',
+    APPLICATION_ENVIRONMENT: 'readonly',
+    GIT_COMMIT: 'readonly',
+    BASE_PATH: 'readonly',
   },
   rules: {
     // Turned off, because it's based on teams POVs.
@@ -128,6 +134,9 @@ module.exports = {
     // Gets in the way of BEM.
     'react/jsx-pascal-case': 'off',
 
+    // Not always convenient.
+    'react/jsx-props-no-spreading': 'off',
+
     // Remove spaces even in front of `/>`, because it's prettier.
     'react/jsx-tag-spacing': ['error', {
       closingSlash: 'never',
@@ -189,6 +198,9 @@ module.exports = {
       },
     }],
 
+    // Let the developer decide.
+    'react/state-in-constructor': 'off',
+
     // Deprecated and most likely will stop working in the future.
     // So turn it off today.
     'jsx-a11y/label-has-for': 'off',
@@ -213,5 +225,28 @@ module.exports = {
     'jsx-a11y/no-onchange': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/tabindex-no-positive': 'off',
+
+    // The following rules are currently disabled in the Airbnb config v18.2.1, but will be probably enabled in the future. Now we turn them on.
+    'default-case-last': 'error',
+    'default-param-last': 'error',
+    'function-call-argument-newline': ['error', 'consistent'],
+    'grouped-accessor-pairs': ['error', 'anyOrder'],
+    'no-constructor-return': 'error',
+    'no-dupe-else-if': 'error',
+    'no-import-assign': 'error',
+    'no-loss-of-precision': 'error',
+    'no-promise-executor-return': 'error',
+    'no-setter-return': 'error',
+    'no-useless-backreference': 'error',
+    'no-unreachable-loop': 'error',
+    'prefer-exponentiation-operator': 'error',
+    'prefer-regex-literals': 'error',
+    'react/jsx-no-script-url': ['error', [
+      {
+        name: 'Link',
+        props: ['href', 'to'],
+      },
+    ]],
+    'react/jsx-no-useless-fragment': 'error',
   },
 };

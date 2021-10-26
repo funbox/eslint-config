@@ -1,6 +1,6 @@
 {
   "name": "@funboxteam/eslint-config",
-  "version": "5.3.2",
+  "version": "6.0.0",
   "description": "ESLint rules that follow our style guide",
   "keywords": [
     "eslint",
@@ -21,13 +21,14 @@
   "license": "MIT",
   "dependencies": {
     "@funboxteam/eslint-plugin-no-only-tests": "4.0.0",
-    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb": "18.2.1",
     "eslint-import-resolver-webpack": "0.11.1",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-react": "7.20.6"
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.26.1",
+    "eslint-plugin-react-hooks": "4.2.0"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^7.32.0"
   }
 }

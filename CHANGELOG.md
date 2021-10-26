@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.0.0 (26.10.2021)
+
+We've updated peer deps. Now this packages requires eslint@^7.32.0.
+
+The update led to the quite a large number of changes in the config. 
+Please, check the [migration guide](./MIGRATION.md) to migrate with ease. 
+
+
 ## 5.3.2 (27.09.2021)
 
 Fixed typos in the comments inside the config file.
