@@ -12,7 +12,7 @@ Based on the well-known [Airbnb JS Style Guide](https://github.com/airbnb/javasc
 
 ```bash
 npm install --save-dev @funboxteam/eslint-config
-```
+``` 
 
 ## Usage
 
