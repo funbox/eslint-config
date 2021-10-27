@@ -1,6 +1,6 @@
 {
   "name": "@funboxteam/eslint-config",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "ESLint rules that follow our style guide",
   "keywords": [
     "eslint",
@@ -15,7 +15,8 @@
     ".eslintrc.js",
     ".eslintrc.tests.js",
     "index.js",
-    "tests.js"
+    "tests.js",
+    "MIGRATION.md"
   ],
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",

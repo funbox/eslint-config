@@ -82,7 +82,7 @@ Also we've changed the config itself. Below you can find full list of the change
 `{ multiline: 'consistent', singleline: 'consistent' }`
 - [react/jsx-fragments](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md) enabled by default as an error with the option `syntax`
 - [react/jsx-no-script-url](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md) enabled manually as an error with options `{ name: 'Link', props: ['href', 'to'] }`
-- [react/jsx-no-useless-fragment](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md) enabled manually as an error
+- [react/jsx-no-useless-fragment](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md) enabled manually as an error (btw, v6.0.1 enabled this rule with `allowExpressions` option)
 - [react/jsx-props-no-spreading](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md) disabled manually
 - [react/no-adjacent-inline-elements](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md) disabled by default
 - [react/prefer-read-only-props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md) disabled by default

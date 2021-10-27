@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.0.1 (27.10.2021)
+
+Enabled `allowExpressions` option 
+for [react/jsx-no-useless-fragment](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md#allowexpressions).
+
+Also added migration guide to the package files.
+
+
 ## 6.0.0 (26.10.2021)
 
 We've updated peer deps. Now this packages requires eslint@^7.32.0.

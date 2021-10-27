@@ -247,6 +247,6 @@ module.exports = {
         props: ['href', 'to'],
       },
     ]],
-    'react/jsx-no-useless-fragment': 'error',
+    'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
   },
 };
