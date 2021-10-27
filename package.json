@@ -15,7 +15,8 @@
     ".eslintrc.js",
     ".eslintrc.tests.js",
     "index.js",
-    "tests.js"
+    "tests.js",
+    "MIGRATION.md"
   ],
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",
