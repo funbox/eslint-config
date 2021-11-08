@@ -1,5 +1,29 @@
 # Migration
 
+## 6.0.1 → 7.0.0
+
+eslint-plugin-jsx-a11y@6.2.3 is not marked as eslint@7 compatible. 
+But we don't want to downgrade the Airbnb config, so you won't be able to get rid of these messages:
+
+```
+npm WARN eslint-config-airbnb@18.2.1 requires a peer of eslint-plugin-jsx-a11y@^6.4.1 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-plugin-jsx-a11y@6.2.3 requires a peer of eslint@^3 || ^4 || ^5 || ^6 but none is installed. You must install peer dependencies yourself.
+```
+
+Even though the plugin itself should work fine, there are several possible points of failure.
+The latest Airbnb config that is compatible with eslint-plugin-jsx-a11y@6.2.3 is v18.1.0.
+According to the [v18.1.0...v18.2.1 diff](https://github.com/airbnb/javascript/compare/eslint-config-airbnb-v18.1.0...eslint-config-airbnb-v18.2.1):
+
+1. `jsx-a11y/aria-role` options have been changed from `{ ignoreNonDom: false }` to `{ ignoreNonDOM: false }`.
+   This is probably a typo fix.
+2. `jsx-a11y/accessible-emoji` rule has been disabled due to deprecation.
+3. `jsx-a11y/autocomplete-valid` rule has been turned off.
+
+If you use any of these rules, please make sure they work fine with your project.
+
+Other than that, everything should work well.
+
+
 ## 5.3.2 → 6.0.0
 
 ESLint peer dep was updated to ^7.32.0. Here are migration guides from ESLint:
