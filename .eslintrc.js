@@ -81,7 +81,7 @@ module.exports = {
     // Such variables usage isn't allowed by default.
     'no-use-before-define': ['error', {
       functions: false,
-      classes: false
+      classes: false,
     }],
 
     // Multiline object definition is a matter of likes and dislikes.
@@ -193,7 +193,7 @@ module.exports = {
         ],
         rendering: [
           '/^render.+$/',
-          'render'
+          'render',
         ],
       },
     }],

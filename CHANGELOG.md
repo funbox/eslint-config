@@ -1,5 +1,12 @@
 # Changelog
 
+## 7.0.0 (08.11.2021)
+
+Downgraded eslint-plugin-jsx-a11y from 6.4.1 to 6.2.3 due to unacceptable license of a transitive dependency [language-subtag-registry](https://github.com/mattcg/language-subtag-registry/issues/8).
+
+Check the [migration guide](./MIGRATION.md).
+
+
 ## 6.0.1 (27.10.2021)
 
 Enabled `allowExpressions` option 
