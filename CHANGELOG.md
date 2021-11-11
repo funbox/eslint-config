@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.1.0 (11.11.2021)
+
+Updated eslint-plugin-react to [7.27.0](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md#7270---20211109).
+
+
 ## 7.0.0 (08.11.2021)
 
 Downgraded eslint-plugin-jsx-a11y from 6.4.1 to 6.2.3 due to unacceptable license of a transitive dependency [language-subtag-registry](https://github.com/mattcg/language-subtag-registry/issues/8).
