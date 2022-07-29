@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@funboxteam/eslint-plugin-no-only-tests": "4.0.0",
-    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb": "19.0.4",
     "eslint-import-resolver-webpack": "0.11.1",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-jsx-a11y": "6.6.1",
