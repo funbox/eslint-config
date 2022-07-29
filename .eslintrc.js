@@ -59,6 +59,11 @@ module.exports = {
     // So leave the rule, but add an exception.
     'no-return-assign': ['error', 'except-parens'],
 
+    // Same as Airbnb's except it allows default exports.
+    'no-restricted-exports': ['error', {
+      restrictedNamedExports: ['then'],
+    }],
+
     // Same as Airbnb used, but without restricting `ForOfStatement`.
     // It's disabled there because it's “heavyweight” due to requiring regenerator-runtime. But our projects already use regenerator-runtime, so why not.
     'no-restricted-syntax': [
