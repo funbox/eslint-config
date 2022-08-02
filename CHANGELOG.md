@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.2.0 (02.08.2022)
+
+Updated eslint-config-airbnb to v19, along with related plugins.
+
+
 ## 7.1.0 (11.11.2021)
 
 Updated eslint-plugin-react to [7.27.0](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md#7270---20211109).
