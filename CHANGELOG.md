@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.3.0 (25.08.2022)
+
+Turned off `react/function-component-definition` rule.
+
+
 ## 7.2.0 (02.08.2022)
 
 Updated eslint-config-airbnb to v19, along with related plugins.

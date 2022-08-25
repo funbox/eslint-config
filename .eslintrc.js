@@ -127,6 +127,9 @@ module.exports = {
     // E.g. when it have to pass them in the call chain.
     'react/forbid-prop-types': 'off',
 
+    // Let the developer decide.
+    'react/function-component-definition': 'off',
+
     // Not always convenient.
     'react/jsx-closing-tag-location': 'off',
 
