@@ -21,7 +21,7 @@
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "lawyer"
+    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi"
   },
   "dependencies": {
     "@funboxteam/eslint-plugin-no-only-tests": "4.0.0",
