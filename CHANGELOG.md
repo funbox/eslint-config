@@ -1,5 +1,18 @@
 # Changelog
 
+## 7.4.0 (25.08.2022)
+
+**Update dependencies:**
+
+* eslint-import-resolver-webpack: 0.11.1 => 0.13.4,
+* eslint-plugin-import: 2.26.0 => 2.28.1,
+* eslint-plugin-jsx-a11y: 6.6.1 => 6.7.1,
+* eslint-plugin-react: 7.30.1 => 7.33.2,
+
+**Update peerDependencies:**
+
+* eslint: ^7.32.0 => ^7.32.0 || ^8.2.0
+
 ## 7.3.0 (25.08.2022)
 
 Turned off `react/function-component-definition` rule.
